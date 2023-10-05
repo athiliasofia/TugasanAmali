@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+<title>USER FORM</title>
+<style>
+
+body 
+{
+background-color: rgb(26, 11, 11);
+}
+
+table 
+{
+font-family: 'arial';
+background-color: rgb(91, 54, 54);
+margin-top: 50px;
+border-collapse: collapse;
+width: fit-content;
+}
+                
+th 
+{
+border: 2px solid #a17c7c;
+text-align: center;
+padding: 5px;
+}
+     
+td
+{
+border: 2px solid #a17474;
+text-align: left;
+padding: 5px;
+}
+</style>    
+</head>
+
+<body>
+<center>
+
+<form action="/action_page.php">
+   
+<table>
+
+<tr>
+   <th style="background-color: rgb(111, 86, 86)" style="text-align: center;" colspan="2">USER FORM</th>
+</tr>
+
+<tr>
+   <th>ENTER NAME</th>
+   <td>
+      <input type="name" name="id" id="ID" required>
+   </td>
+</tr>
+
+<tr>
+   <th>ENTER PASSWORD</th>
+   <td>
+      <input type="password" name="pass" id="PASSWORD" required>
+   </td>
+</tr>
+
+<tr>
+   <th>ENTER ADDRESS</th>
+   <td>
+      <textarea id="address" name="address" rows="4" cols="50"></textarea>
+   </td>
+</tr>
+
+<tr>
+   <th>SELECT GAME</th>
+   <td>
+      <input type="checkbox" name="games" value="hockey" id="HOCKEY">
+      <label for="hockey">HOCKEY</label><br>
+      <input type="checkbox" name="games" value="football" id="FOOTBALL">
+      <label for="football">FOOTBALL</label><br>
+      <input type="checkbox" name="games" value="badminton" id="BADMINTON">
+      <label for="badminton">BADMINTON</label><br>
+      <input type="checkbox" name="games" value="cricket" id="CRICKET">
+      <label for="cricket">CRICKET</label><br>
+      <input type="checkbox" name="games" value="voleyball" id="VOLEYBALL">
+      <label for="volleyball">VOLEYBALL</label>
+    </td>
+</tr>
+
+<tr>
+    <th>GENDER</th>
+    <td>
+       <input type="radio" name="gender" value="male" id="MALE">
+       <label for="male">MALE</label>
+       <input type="radio" name="gender" value="female" id="FEMALE">
+       <label for="female">FEMALE</label>
+    </td>
+</tr>
+
+<tr>
+<th><label for="age">SELECT YOUR AGE</label></th>
+    <td>
+       <select name="umur" value="AGE" id="age">
+       <option value="15">15</option>
+       <option value="16">16</option>
+       <option value="17">17</option>
+       <option value="18">18</option>
+       <option value="19">19</option>
+</tr>
+    
+<tr>
+   <td style="text-align: center;" colspan="2"><input type="file" name="fail" id="FILE">
+   </td>
+</tr>
+
+<tr>
+   <th style="background-color: rgb(111, 86, 86)" colspan="2"><input type="submit" value="CLICK ME"><input type="reset" value="RESET"><input type="submit" value="SUBMIT FORM">
+    </th>
+</tr>
+
+</form>
+</table>
+</center>   
+</body>
+</html>

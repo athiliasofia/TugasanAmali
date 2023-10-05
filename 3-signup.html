@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+<title>SIGN UP</title>
+
+<style>
+
+body 
+{
+background-color: rgb(4, 8, 21);
+margin-top: 80px;
+}
+
+table
+{
+background-color: rgb(102, 126, 166);
+outline: auto;
+outline-color: rgb(5, 3, 0);
+font-family: 'times new roman';
+color: rgb(255, 255, 255);
+}
+
+td
+{
+text-align: left;   
+}
+
+</style>
+</head>
+
+<body>
+<center> 
+
+<form action="/action_page.php"></form>
+   
+<table>
+
+<tr>
+   <th style="background-color: rgb(10, 39, 66);" style="text-align: center;" colspan="2">SIGN UP</th>
+   </tr>
+
+<tr>
+   <th>FIRST NAME</th>
+   <td>
+      <input type="nama" name="name" id="NAME" value="enter first name" required>
+   </td>
+</tr>
+
+<tr>
+   <th>LAST NAME</th>
+   <td>
+      <input type="name" name="nama" id="NAMA" value="enter last name" required>
+   </td>
+</tr>
+
+<tr>
+    <th><label for="dob">DATE OF BIRTH</label></th>
+    <td>
+       <select name="bulan" value="MONTH" id="month">
+       <option value="jan">jan</option>
+       <option value="feb">feb</option>
+       <option value="mar">mar</option>
+       <option value="apr">apr</option>
+       <option value="may">may</option>
+       <option value="june">june</option>
+       <option value="july">july</option>
+       <option value="august">august</option>
+       <option value="september">september</option>
+       <option value="october">october</option>    
+       </select>
+
+       <select name="hari" value="DAY" id="day">
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       </select>
+
+       <select name="tahun" value=YEAR id="year">
+       <option value="1995">1995</option> 
+       <option value="1996">1996</option>
+       <option value="1997">1997</option>
+       <option value="1998">1998</option>
+       <option value="1999">1999</option>
+       <option value="2000">2000</option>
+       <option value="2001">2001</option>
+       <option value="2002">2002</option>
+       <option value="2003">2003</option>
+       <option value="2004">2004</option>
+       </select>
+    </td>
+</tr>
+
+<tr>
+    <th>GENDER</th>
+    <td>
+       <input type="radio" name="gender" value="MALE" id="male">
+       <label for="MALE">MALE</label>
+
+       <input type="radio" name="gender" value="FEMALE" id="female">
+       <label for="FEMALE">FEMALE</label>
+    </td>    
+</tr>
+
+<tr>
+   <th>COUNTRY</th>
+   <td>
+      <select name="country" id="COUNTRY">
+      <option value="malaysia">MALAYSIA</option>
+      <option value="indonesia">INDONESIA</option>
+      <option value="thailand">THAILAND</option>
+      <option value="japan">JAPAN</option>
+      <option value="china">CHINA</option>
+      </select>
+    </td>
+</tr>
+
+<tr> 
+   <th><label for="email">E-MAIL</label></th>
+   <td>   
+      <input type="email" name="email" value="enter email..." id="emel">
+   </td>
+</tr>
+
+<tr>
+   <th>PHONE</th>
+   <td>
+      <input type="tel" name="tel" value="enter phone..." maxlength="11">
+   </td>
+</tr>
+
+<tr>
+   <th>PASSWORD</th>
+   <td>
+      <input type="password" name="pass" id="PASSWORD" minlength="8">
+   </td>
+</tr>
+    
+<tr>
+   <th>CONFIRM PASSWORD</th>
+   <td>
+      <input type="password" name="pass" id="PASSWORD" minlength="8">
+   </td>
+</tr>
+
+<tr> 
+   <th style="text-align: center;" colspan="2"><input type="checkbox" name="button" value="BUTTON">
+      <label for="button">I AGREE TO THE TERM OF USE</label>
+   </th>
+</tr>
+
+<tr>
+   <td style="text-align: center;" colspan="2">
+       <input type="submit" value="SUBMIT"> 
+       <input type="reset" value="CANCEL">    
+    </td>
+ </tr>
+
+</ul>   
+</table>
+</center>
+</body>
+</html>

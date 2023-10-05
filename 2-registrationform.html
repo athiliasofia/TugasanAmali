@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+<title>REGISTRATION FORM</title>
+
+<style>
+
+body 
+{
+background-color: rgb(81, 94, 66);
+}
+
+table
+{
+background-color: rgb(147, 172, 123);
+outline: auto;
+outline-color: rgb(60, 82, 59);
+}
+
+th
+{
+color:rgb(46, 65, 42);
+}
+
+td
+{
+text-align: left;   
+color:rgb(46, 65, 42);
+}
+
+</style>
+</head>
+
+<body>
+<center> 
+
+<h1 style="color: rgb(212, 216, 212);">USER FORM</h1>
+
+<form action="/action_page.php"></form>
+   
+<table border="0" style="text-align: justify;">
+<ul type="circle">
+
+<tr>
+   <th><li>FIRST NAME</li></th>
+   <td>
+      <input type="nama" name="name" id="NAME" required>
+   </td>
+</tr>
+
+<tr>
+   <th><li>PASSWORD</li></th>
+   <td>
+      <input type="password" name="pass" id="PASSWORD" minlength="8">
+   </td>
+</tr>
+    
+<tr>
+   <th><li>GENDER</li></th>
+   <td>
+      <input type="radio" name="gender" value="MALE" id="male">
+      <label for="MALE">MALE</label>
+      <input type="radio" name="gender" value="FEMALE" id="female">
+      <label for="FEMALE">FEMALE</label>
+   </td>    
+</tr>
+
+<tr>
+   <th><li>ADDRESS</li></th>
+   <td><textarea id="address" name="ADDRESS" rows="4" cols="50"></textarea>
+   </td>
+</tr>  
+        
+<tr>
+    <th><li><label for="dob">D.O.B</label></li></th>
+    <td>
+       <select name="bulan" value="MONTH" id="month">
+       <option value="jan">jan</option>
+       <option value="feb">feb</option>
+       <option value="mar">mar</option>
+       <option value="apr">apr</option>
+       <option value="may">may</option>
+       <option value="june">june</option>
+       <option value="july">july</option>
+       <option value="august">august</option>
+       <option value="september">september</option>
+       <option value="october">october</option>    
+       </select>
+
+       <select name="hari" value="DAY" id="day">
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       </select>
+
+       <select name="tahun" value=YEAR id="year">
+       <option value="1995">1995</option> 
+       <option value="1996">1996</option>
+       <option value="1997">1997</option>
+       <option value="1998">1998</option>
+       <option value="1999">1999</option>
+       <option value="2000">2000</option>
+       <option value="2001">2001</option>
+       <option value="2002">2002</option>
+       <option value="2003">2003</option>
+       <option value="2004">2004</option>
+       </select>
+    </td>
+</tr>
+
+<tr>
+   <th><li>SELECT GAMES</li></th>
+   <td>
+      <input type="checkbox" name="games" value="HOCKEY" id="hockey">
+      <label for="HOCKEY">HOCKEY</label>
+      <input type="checkbox" name="games" value="FOOTBALL" id="football">
+      <label for="FOOTBALL">FOOTBALL</label>
+      <input type="checkbox" name="games" value="CRICKET" id="cricket">
+      <label for="CRICKET">CRICKET</label>
+      <input type="checkbox" name="games" value="VOLEYBALL" id="voleyball">
+      <label for="VOLEYBALL">VOLEYBALL</label>
+   </td>
+</tr>
+
+<tr>
+   <th><li>MARITAL STATUS</li></th>
+   <td>
+      <input type="checkbox" name="status" value="MARRIED" id="married">
+      <label for="MARRIED">MARRIED</label>
+      <input type="checkbox" name="status" value="UNMARRIED" id="unmarried">
+      <label for="UNMARRIED">UNMARRIED</label>
+    </td>
+</tr>
+
+<tr>
+   <td style="text-align: center;" colspan="2">
+       <input type="submit" value="SUBMIT"> 
+       <input type="reset" value="RESET">    
+   </td>
+</tr>
+
+<tr> 
+   <th style="text-align: center;" colspan="2">
+    <input type="checkbox" name="button" value="BUTTON">
+    <label for="button">I ACCEPT THIS AGREEMENT</label>
+   </th>
+</tr>
+
+</ul>   
+</table>
+</center>
+</body>
+</html>
